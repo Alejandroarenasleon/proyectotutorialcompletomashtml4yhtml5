@@ -1,15 +1,53 @@
 h1{
+    font-size: 45px;
+    color:  #286E22;
+    font-style: italic;
+}
+.titulo{
+    font-size: 35px;
+    color: black;
+    font-style: italic;
+    list-style: none;
+}
+.menu{
+    font-style: italic;
+    list-style: none;
+}
+.menu__texto{
     color:  #286E22;
 }
-h4{
+.menu__textoo{
     color: black;
 }
-li{
-    color:black;
+.menu__icono{
+    color:  black;
 }
-.color-negro{
+.articulo{
+    font-style: italic;
+    color:  black;
+}
+.articulo__texto{
+    color:  black;
+    text-align: center;
+    font-style: italic;
+}
+.articulo__icono{
+    color:  black;
+    text-align: center;
+}
+.articulo__img{
+    
+
+}
+.redes{
+    font-style: italic;
+
+}
+.redes__texto{
     color:  #286E22;
+    
 }
-.color-rojo{
-    color:black;
+.redes__iconos{
+    color:  black;
+    
 }
