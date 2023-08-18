@@ -20,12 +20,14 @@ h2{
     list-style: none;
 }
 .menu__texto{
+    margin-right: 12px;
     color:  #286E22;
 }
 .menu__textoo{
-    font-size: 20px;
+    margin-right: 15px;
+    font-size: 30px;
     font-style: italic;
-    color: black;
+    color: #286E22;
 }
 .menu__icono{
     color:  black;
@@ -45,6 +47,8 @@ h2{
 }
 .articulo__img{
     color: black;
+    width: 600px;
+    height: 500px;
 }
 .redes{
     font-size: 25px;
@@ -52,10 +56,68 @@ h2{
     list-style: none;
 }
 .redes__texto{
-    color:  #286E22;
-    
+    color:  #286E22; 
 }
 .redes__iconos{
-    color:  black;
-    
+    color:  black; 
+    width: 220px;
+    height: 220px;
+}
+.boton__div{
+    width:1720px;
+    height:1350px;
+    padding:15px;
+    border:5px solid black;
+    margin:10px;
+    background:linear-gradient(rgb(155, 245, 151),rgb(246, 248, 246));
+}
+.boton__med{
+    width:1720px;
+    height:1050px;
+    padding:15px;
+    border:5px solid black;
+    margin:10px;
+    background-size: cover;
+    background-repeat: space;
+    background-image: url("./img/fondo.PNG");
+    background:linear-gradient(rgb(246, 248, 246),rgb(101, 227, 101));
+}
+.boton__div__enviar{
+    font-size: 15px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:700 ;
+    color: aqua;
+}
+.caa{
+    justify-content: space-evenly;
+}
+.fff{
+    width:1720px;
+    height:520px;
+    padding:15px;
+    border:5px solid black;
+    margin:10px;
+    background-size: cover;
+    background-repeat: space;
+    background:linear-gradient(rgb(155, 245, 151),rgb(246, 248, 246));
+}
+.hhh{
+    width:1720px;
+    height:320px;
+    padding:15px;
+    border:5px solid black;
+    margin:10px;
+    background-size: cover;
+    background-repeat: space;
+    background:linear-gradient(rgb(246, 248, 246),rgb(246, 248, 246));
+}
+.sss{
+    width:1720px;
+    height:520px;
+    padding:15px;
+    border:5px solid black;
+    margin:10px;
+    background-size: cover;
+    background-repeat: space;
+    background:linear-gradient(rgb(246, 248, 246),rgb(101, 227, 101));
 }
