@@ -1,5 +1,10 @@
 h1{
-    font-size: 45px;
+    font-size: 50px;
+    color:  #286E22;
+    font-style: italic;
+}
+h2{
+    font-size: 30px;
     color:  #286E22;
     font-style: italic;
 }
@@ -10,6 +15,7 @@ h1{
     list-style: none;
 }
 .menu{
+    font-size: 20px;
     font-style: italic;
     list-style: none;
 }
@@ -17,6 +23,8 @@ h1{
     color:  #286E22;
 }
 .menu__textoo{
+    font-size: 20px;
+    font-style: italic;
     color: black;
 }
 .menu__icono{
@@ -36,12 +44,12 @@ h1{
     text-align: center;
 }
 .articulo__img{
-    
-
+    color: black;
 }
 .redes{
+    font-size: 25px;
     font-style: italic;
-
+    list-style: none;
 }
 .redes__texto{
     color:  #286E22;
