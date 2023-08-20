@@ -7,25 +7,23 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Iniciar Sesion Con</h1>
-        <a href="menu3.5.html"><img src="src/img/boton.jpg" alt="img"></a>
-        <a href="menu3.5.html"><img src="src/img/buton.jpg" alt="img"></a>
-    </header>
     <section>
-        <article>
+        <article class="accede__medio">
+            <h1>Iniciar Sesion Con</h1>
+            <a href="menu3.5.html"><img src="src/img/boton.jpg" alt="img"></a>
+            <a href="menu3.5.html"><img src="src/img/buton.jpg" alt="img"></a>
             <form action="/my-handling-form-page" method="post">
                 <ul class="menu">
                     <li>
-                      <label for="name" class="menu__texto">Escribe Tu Nombre De Usuario:</label>
+                      <label for="name" class="accede__texto">Escribe Tu Nombre De Usuario:</label>
                       <input type="text" id="name" name="user_name" />
                     </li>
                     <li>
-                      <label for="mail" class="menu__texto">Escribe Tu Contraseña:</label>
+                      <label for="mail" class="accede__texto">Escribe Tu Contraseña:</label>
                       <input type="email" id="mail" name="user_mail" />
                     </li>
                     <li>
-                        <label for="carrots" class="menu__texto">Recordarme</label>
+                        <label for="carrots" class="accede__texto">Recordarme</label>
                         <input
                             type="checkbox"
                             id="carrots"
@@ -34,16 +32,16 @@
                             checked />
                     </li>
                     <li class="button">
-                        <button type="submit" class="menu__texto">Acceder</button>
+                        <button type="submit" class="accede__texto">Acceder</button>
                       </li>
                   </ul>
+                  <ul>
+                    <a href="menu3.5.html" class="accede__texto">¿Has Olvidado Tu Contraseña?</a>
+                </ul>
             </form>
         </article>
     </section>
    <footer>
-    <ul class="menu">
-        <a href="menu3.5.html"><li class="menu__texto">¿Has Olvidado Tu Contraseña?</li></a>
-    </ul>
    </footer>
 </body>
 </html>
