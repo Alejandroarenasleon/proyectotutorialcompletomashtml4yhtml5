@@ -1,83 +1,119 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+:root{
+    --main-color:#286E22;
+    --link-color:aqua;
+    --texto-color:black;
+    --borde-color:black;
+    --degrade-color:rgb(246, 248, 246);
+    --degrade-colors:rgb(155, 245, 151);
+}
 .titulo{
     font-size: 50px;
-    color:  #286E22;
+    color:var(--main-color);
     font-style: italic;
     text-decoration: none;
 }
+.titulo:hover{
+    color:var(--link-color);
+}
 h1{
     font-size: 50px;
-    color:  #286E22;
+    color:var(--main-color);
     font-style: italic;
     text-decoration: none;
 }
 h2{
     font-size: 30px;
-    color:  #286E22;
+    color:var(--main-color);
     font-style: italic;
+}
+.menu__diseño{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
 }
 .menu{
     font-size: 20px;
-    color:  #286E22;
+    color:var(--main-color);
     font-style: italic;
     list-style: none;
     text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu:hover{
+    color:var(--link-color);
 }
 .boton__inicio{
     width:1465px;
-    height:550px;
+    height:250px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid ;
     margin:10px;
-    background:linear-gradient(rgb(155, 245, 151),rgb(246, 248, 246));
+    background:linear-gradient(var(--degrade-colors),var(--degrade-color));
+    box-sizing: border-box;
 }
 .articulo{
     font-style: italic;
-    color:  black;
+    color:var(--texto-color);
     text-align: center;
 }
 .articulo__img{
-    width: 750px;
-    height: 590px;
+    width: 650px;
+    height: 520px;
     text-align:end;
 }
 .boton__medio{
     width:1465px;
     height:1050px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid var(--borde-color);
     margin:10px;
-    background:linear-gradient(rgb(246, 248, 246),rgb(101, 227, 101));
+    background:linear-gradient(var(--degrade-color),var(--degrade-colors));
 }
 .redes{
     font-size: 25px;
     font-style: italic;
     list-style: none;
     display: flex;
-    margin: 0 20px;
+    margin: 12px 20px;
     width: 220px;
     height: 220px;
+}
+.redes:hover{
+    width: 250px;
+    height: 250px;
 }
 .boton__final{
     width:1465px;
     height:650px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid var(--borde-color);
     margin:10px;
-    background:linear-gradient(rgb(155, 245, 151),rgb(246, 248, 246));
+    background:linear-gradient(var(--degrade-colors),var(--degrade-color));
 }
 .formulario{
     font-size: 30px;
     font-style: italic;
-    color: #286E22;
+    color:var(--main-color);
 }
 .formulario__medio{
     width:1465px;
     height:320px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid var(--borde-color);
     margin:10px;
-
-    background:linear-gradient(rgb(246, 248, 246),rgb(246, 248, 246));
+    background:linear-gradient(var(--degrade-color),var(--degrade-color));
 }
 .formulario__img{
     width: 550px;
@@ -87,24 +123,27 @@ h2{
     width:1465px;
     height:520px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid var(--borde-color);
     margin:10px;
-    background:linear-gradient(rgb(246, 248, 246),rgb(101, 227, 101));
+    background:linear-gradient(var(--degrade-color),var(--degrade-colors));
 }
 .explora{
     font-size: 25px;
-    color:  #286E22;
+    color:var(--main-color);
     font-style: italic;
     list-style: none;
     text-decoration: none;
+}
+.explora:hover{
+    color:var(--link-color);
 }
 .explora__inicio{
     width:1465px;
     height:550px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid var(--borde-color);
     margin:10px;
-    background:linear-gradient(rgb(155, 245, 151),rgb(246, 248, 246));
+    background:linear-gradient(var(--degrade-colors),var(--degrade-color));
 }
 .acerca__texto{
     font-size: 20px;
@@ -124,33 +163,34 @@ h2{
     width:1465px;
     height:2200px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid var(--borde-color);
     margin:10px;
-    background:linear-gradient(white,rgb(101, 227, 101));
+    background:linear-gradient(var(--degrade-color),var(--degrade-colors));
 }
 .portal__texto{
     font-size: 22px;
     font-style: italic;
-    color: black;
+    color: var(--texto-color);
+    list-style: none;
 }
 .portal__medio{
     width:1465px;
     height:800px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid var(--borde-color);
     margin:10px;
-    background:linear-gradient(white,rgb(101, 227, 101));
+    background:linear-gradient(var(--degrade-color),var(--degrade-colors));
 }
 h3{
     font-size: 30px;
-    color:  black;
+    color:var(--texto-color);
     font-style: italic;
 }
 .pagina__texto{
     list-style: none;
     font-size: 25px;
     font-style: italic;
-    color: black;
+    color:var(--texto-color);
 }
 .img{
     width: 1300px;
@@ -166,13 +206,13 @@ h3{
     width:1465px;
     height:3850px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid var(--borde-color);
     margin:10px;
-    background:linear-gradient(white,rgb(101, 227, 101));
+    background:linear-gradient(var(--degrade-color),var(--degrade-colors));
 }
 .categoria__texto{
     font-size: 25px;
-    color:  black;
+    color: var(--texto-color);
     font-style: italic;
     list-style: none;
     text-decoration: none;
@@ -181,13 +221,13 @@ h3{
     width:1465px;
     height:1250px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid var(--borde-color);
     margin:10px;
-    background:linear-gradient(white,rgb(101, 227, 101));
+    background:linear-gradient(var(--degrade-color),var(--degrade-colors));
 }
 .accede__texto{
     font-size: 25px;
-    color:  black;
+    color:var(--texto-color);
     font-style: italic;
     list-style: none;
     text-decoration: none;
@@ -196,13 +236,13 @@ h3{
     width:1465px;
     height:650px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid var(--borde-color);
     margin:10px;
-    background:linear-gradient(white,rgb(101, 227, 101));
+    background:linear-gradient(var(--degrade-color),var(--degrade-colors));
 } 
 .alazar__texto{
     font-size: 25px;
-    color:  black;
+    color: var(--texto-color);
     font-style: italic;
     list-style: none;
     text-decoration: none;
@@ -215,16 +255,7 @@ h3{
     width:1465px;
     height:5000px;
     padding:15px;
-    border:5px solid black;
+    border:5px solid var(--borde-color);
     margin:10px;
-    background:linear-gradient(white,rgb(101, 227, 101));
+    background:linear-gradient(var(--degrade-color),var(--degrade-colors));
 }   
-.boton__div__enviar{
-    font-size: 15px ;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:700 ;
-    color: aqua;
-}
-.caa{
-    justify-content: space-evenly;
-}
