@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contribuye</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css" integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
 </head>
 <body>
     <header class="boton__inicio">
@@ -16,7 +17,7 @@
                 <input type="search" id="site-search" name="q" class="menu__buscador"/>
                 <button class="menu__buscador">Buscar</button>
             </nav>
-           <ul class="menu">
+           <ul class="menu"> 
             <li >
                 <img src="src/img/contribuye.PNG" alt="contribuye" class="menu__icono">  
                 <a href="Formulario3.html" class="menu">contribuye</a>
@@ -38,29 +39,86 @@
     </header>
     <section>
         <article class="formulario__medio">
-            <form action="/my-handling-form-page" method="post">
-                <ul class="formulario">
-                    <li>
-                      <label for="name"  class="formulario">Nombre:</label>
-                      <input type="text" id="name" alt="user_name" class="formulario"/>
-                    </li>
-                    <li>
-                      <label for="mail"  class="formulario">Correo electrónico:</label>
-                      <input type="email" id="mail" alt="user_mail" class="formulario"/>
-                    </li>
-                    <li>
-                        <label for="msg" class="formulario">Archivo:</label>
-                        <textarea id="msg" alt="user_message" class="formulario"></textarea>
-                    </li>
-                    <li>
-                      <label for="msg"  class="formulario">Mensaje:</label>
-                      <textarea id="msg" name="user_message" class="formulario"></textarea>
-                    </li>
-                    <li class="menu__icono" class="button" class="formulario">
-                        <button type="submit"  class="formulario">Envíe su Contribucion</button>
-                    </li>
-                  </ul>
-            </form>
+            <nav class="container">
+                <form action="/my-handling-form-page" method="post">
+                    <ul class="formulario">
+                        <nav class="row justify-content-start">
+                            <nav class="col-4">
+                                <li>
+                                    <label for="name"  class="formulario">Nombre:</label>
+                                    <input type="text" id="name" alt="user_name"/>
+                                </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="name"  class="formulario">Apellido:</label>
+                                    <input type="text" id="name" alt="user_name" />
+                                </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="mail"  class="formulario">Correo electrónico:</label>
+                                    <input type="email" id="mail" alt="user_mail" />
+                                </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="mail"  class="formulario">Edad:</label>
+                                    <input type="email" id="mail" alt="user_mail" />
+                                  </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="mail"  class="formulario">Departamento:</label>
+                                    <select id="simple" name="simple">
+                                        <option>Pando</option>
+                                        <option>Beni</option>
+                                        <option>Santa Cruz</option>
+                                        <option>Tarija</option>
+                                        <option>Chuquisaca</option>
+                                        <option>Cochabamba</option>
+                                        <option>Potosi</option>
+                                        <option>Oruro</option>
+                                        <option> La Pax</option>
+                                      </select>
+                                </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="myDate">Fecha de Nacimiento</label>
+                                    <input
+                                    type="date"
+                                    name="myDate"
+                                    min="1900-01-01"
+                                    max="2023-12-31"
+                                    step="1-7"
+                                    id="myDate"/>
+                                </li>
+                            </nav>
+                        </nav>
+                        <nav class="row justify-content-start">
+                            <nav class="col-4">
+                                <li>
+                                    <label for="msg" class="formulario">Archivo:</label>
+                                    <textarea id="msg" alt="user_message" ></textarea>
+                                </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="msg"  class="formulario">Mensaje:</label>
+                                    <textarea id="msg" name="user_message" ></textarea>
+                                  </li>
+                            </nav>
+                        </nav>
+                        <nav class="row justify-content-end">
+                            <nav class="col-4">
+                                <li class="menu__icono" class="button" class="formulario">
+                                    <button type="submit"  class="formulario">Envíe su Contribucion</button>
+                                </li>
+                            </nav>
+                        </nav>
+                </form>
+            </nav>
         </article>
     </section>
     <footer class="formulario__final">
