@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contribuye</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header class="boton__inicio">
+        <nav class="menu__diseño">
+            <a href="index3.html" class="titulo">WIKIHOW</a>
+            <nav>
+                <label for="site-search" class="menu__buscador">Como hacer cualquier cosa:</label>
+                <input type="search" id="site-search" name="q" class="menu__buscador"/>
+                <button class="menu__buscador">Buscar</button>
+            </nav>
+           <ul class="menu"> 
+            <li >
+                <img src="src/img/contribuye.PNG" alt="contribuye" class="menu__icono">  
+                <a href="Formulario3.html" class="menu">contribuye</a>
+            </li>
+            <li>
+                <img src="src/img/explora.PNG" alt="explora" class="menu__icono">
+                <a href="menu3.html"class="menu">explora</a>
+            </li>
+            <li >
+                <img src="src/img/entra.PNG" alt="entra" class="menu__icono">
+                <a href="menu3.5.html"class="menu">entra</a>
+            </li>
+            <li >
+                <img src="src/img/alazar.PNG" alt="alazar" class="menu__icono">
+                <a href="menu3.6.html"class="menu">alazar</a>
+            </li>
+           </ul>
+        </nav>
+    </header>
+    <section>
+        <article class="formulario__medio">
+            <nav class="container">
+                <form action="/my-handling-form-page" method="post">
+                    <ul class="formulario">
+                        <nav class="row justify-content-start">
+                            <nav class="col-4">
+                                <li>
+                                    <label for="name"  class="formulario">Nombre:</label>
+                                    <input type="text" id="name" alt="user_name" placeholder="Escribe tu Nombre"/>
+                                </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="name"  class="formulario">Apellido:</label>
+                                    <input type="text" id="name" alt="user_name" placeholder="Escribe tu Apellido"/>
+                                </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="mail"  class="formulario">Correo electrónico:</label>
+                                    <input type="email" id="mail" alt="user_mail" placeholder="Escribe tu email" />
+                                </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="mail"  class="formulario">Edad:</label>
+                                    <input type="email" id="mail" alt="user_mail"placeholder="Edad" />
+                                  </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="mail"  class="formulario">Departamento:</label>
+                                    <select id="simple" name="simple">
+                                        <option>Pando</option>
+                                        <option>Beni</option>
+                                        <option>Santa Cruz</option>
+                                        <option>Tarija</option>
+                                        <option>Chuquisaca</option>
+                                        <option>Cochabamba</option>
+                                        <option>Potosi</option>
+                                        <option>Oruro</option>
+                                        <option> La Pax</option>
+                                      </select>
+                                </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="myDate">Fecha de Nacimiento</label>
+                                    <input
+                                    type="date"
+                                    name="myDate"
+                                    min="1900-01-01"
+                                    max="2023-12-31"
+                                    step="1-7"
+                                    id="myDate"/>
+                                </li>
+                            </nav>
+                        </nav>
+                        <nav class="row justify-content-start">
+                            <nav class="col-4">
+                                <li>
+                                    <label for="msg" class="formulario">Archivo:</label>
+                                    <textarea id="msg" alt="user_message" ></textarea>
+                                </li>
+                            </nav>
+                            <nav class="col-4">
+                                <li>
+                                    <label for="msg"  class="formulario">Detalle:</label>
+                                    <textarea id="msg" name="user_message" ></textarea>
+                                  </li>
+                            </nav>
+                        </nav>
+                        <nav class="row justify-content-end">
+                            <nav class="col-4">
+                                <li class="menu__icono" class="button" class="formulario">
+                                    <button type="submit"  class="formulario">Envíe su Contribucion</button>
+                                </li>
+                            </nav>
+                        </nav>
+                </form>
+            </nav>
+        </article>
+    </section>
+    <footer class="formulario__final">
+        <img src="src/img/fondo.PNG" alt="img" class="formulario__img">
+    </footer>
+</body>
+</html>
